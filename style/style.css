@@ -106,7 +106,7 @@ article > h2 {
     color: rgb(0, 87, 0);
     font-size: 1.5em;
 }
-article > p{
+article > p {
     text-indent: 30px;
     line-height: 30px;
     max-height: 170px;
