@@ -93,14 +93,14 @@ article {
     box-shadow: 0px 0px 8px black;
 }
 article > h1 {
-    font-family: 'idroid';
+    font-family: 'idroid', cursive;
     font-size: 1.8em;
     color: rgb(10, 107, 10);
     text-shadow: 1px 0px 1px black;
 }
 article > h2 {
     background-image: linear-gradient(to right, rgba(151, 255, 198, 0.63), transparent);
-    font-family: 'idroid';
+    font-family: 'idroid', cursive;
     color: rgb(0, 87, 0);
     font-size: 1.4em;
     text-shadow: 0px 0px 2px black;
