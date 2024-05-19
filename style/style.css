@@ -19,7 +19,6 @@
 
 header {
     background-image: linear-gradient(to top, rgb(0, 37, 0), rgb(2, 218, 135));
-    /* max-height: 150px; */
 }
 header > h1{
     color: white;
@@ -147,6 +146,8 @@ main div.video > iframe {
 aside {
     background-color:rgb(176, 223, 197);
     text-align: justify;
+    min-width: 320px;
+    max-width: 1060px;
 }
 aside > h3 {
     background-color: rgb(0, 155, 95);
