@@ -1,1 +1,1 @@
-<p>Access my project</p><img src="Android_Project___.png.png" alt="Android_Project.png">
+<p>Access my project</p><img src="Android_Project___.png" alt="Android_Project___.png">
