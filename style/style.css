@@ -19,38 +19,37 @@
 
 header {
     background-image: linear-gradient(to top, rgb(0, 37, 0), rgb(2, 218, 135));
-    max-height: 150px;
+    /* max-height: 150px; */
 }
 header > h1{
     color: white;
     text-align: center;
     font-family: 'Oswald';
-    font-size: 2em;
+    font-size: 2.3em;
     padding: 20px 0;
 }
 header > p {
-    padding-bottom: 20px;
     color: white;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.1em;
+    font-size: 1em;
+    padding-bottom: 30px;
 }
 
 /* nav Configurations */
 
 nav {
-    text-indent: 6px;
+    text-indent: 8px;
     background-color: rgb(0, 37, 0);
-    box-shadow: 1px 1px 1px black;
-    padding: 10px;
+    padding-bottom: 10px;
 }
 nav a {
     text-decoration: none;
     color: white;
-    padding: 10px;
+    padding: 8px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 0.9em;
 }
 nav a:hover {
     text-decoration: underline;
@@ -92,7 +91,7 @@ article {
     text-align: justify;
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
-    box-shadow:  0px 0px 8px black;
+    box-shadow: 0px 0px 8px black;
 }
 article > h1 {
     font-family: 'idroid';
@@ -105,14 +104,14 @@ article > h2 {
     font-family: 'idroid';
     color: rgb(0, 87, 0);
     font-size: 1.5em;
+    text-shadow: 0px 0px 2px black;
 }
-article > p {
+article > p, aside p  {
     text-indent: 30px;
     line-height: 30px;
-    max-height: 170px;
     font-size: 1.1em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px 0 20px 0;
+    padding: 10px 0;
 }
 
 /* img Configurations */
@@ -147,6 +146,7 @@ main div.video > iframe {
 
 aside {
     background-color:rgb(176, 223, 197);
+    text-align: justify;
 }
 aside > h3 {
     background-color: rgb(0, 155, 95);
@@ -157,14 +157,6 @@ aside > h3 {
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
 }
-aside p {
-    text-indent: 30px;
-    line-height: 30px;
-    max-height: 170px;
-    font-size: 1.1em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px 0;
-}
 aside ol {
     list-style: none;
     columns: 2;
@@ -174,7 +166,7 @@ aside ol > li {
 } 
 aside ol > li:before {
     content: '\002714';
-    padding: 0 10px;
+    padding: 0 8px;
 }
 
 /* footer Configurations */
