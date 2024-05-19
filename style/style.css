@@ -164,7 +164,7 @@ aside ol > li {
     font-size: 1.1em;
 } 
 aside ol > li:before {
-    content: '\002714';
+    content: '\002714 ';
     padding: 0 8px;
 }
 
