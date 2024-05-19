@@ -1,2 +1,1 @@
-![Logo da Minha Empresa](Android_Project_.png)
-<!-- <img src="Android_Project_.png" alt="Android_Project.png"> -->
+<p>MY PROJECT</p><img src="Android_Project_.png" alt="Android_Project.png">
