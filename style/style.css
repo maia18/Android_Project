@@ -94,7 +94,7 @@ article {
 }
 article > h1 {
     font-family: 'idroid';
-    font-size: 1.93em;
+    font-size: 1.8em;
     color: rgb(10, 107, 10);
     text-shadow: 1px 0px 1px black;
 }
@@ -102,7 +102,7 @@ article > h2 {
     background-image: linear-gradient(to right, rgba(151, 255, 198, 0.63), transparent);
     font-family: 'idroid';
     color: rgb(0, 87, 0);
-    font-size: 1.5em;
+    font-size: 1.4em;
     text-shadow: 0px 0px 2px black;
 }
 article > p, aside p  {
@@ -146,8 +146,6 @@ main div.video > iframe {
 aside {
     background-color:rgb(176, 223, 197);
     text-align: justify;
-    min-width: 320px;
-    max-width: 1060px;
 }
 aside > h3 {
     background-color: rgb(0, 155, 95);
